@@ -1,0 +1,68 @@
+.back {
+  height: 100vh;
+  animation: back 2s linear 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+@keyframes back {
+    0% {
+      background: #f6f4f6;
+    }
+  
+    25% {
+      background: #6fd3bf;
+    }
+    50% {
+      background: #ae8fdb;
+    }
+    75% {
+        background: #efceb9;
+      }
+    100% {
+      background: #2d434f;
+    }
+  }
+
+.main {
+  height: 100vh;
+  animation: main 1s linear 3;
+}
+
+@keyframes @keyframes main {
+  0% {
+    width: 0;
+    background: red;
+    transition: width 0.3s ease-in-out;
+  }
+  49% {
+    width: 100%;
+    background: red;
+    transition: width 0.3s ease-in-out;
+  }
+  50% {
+    width: 0;
+    background: green;
+    transition: width 0.3s ease-in-out;
+  }
+  70% {
+    width: 100%;
+    background: green;
+    transition: width 0.3s ease-in-out;
+  }
+  71% {
+    width: 0;
+    background: yellow;
+    transition: width 0.3s ease-in-out;
+  }
+  100% {
+    width: 100%;
+    background: yellow;
+    transition: width 0.3s ease-in-out;
+  }
+}
+
+
